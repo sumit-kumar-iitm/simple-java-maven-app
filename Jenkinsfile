@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn clean compile package deploy -DskipTests'
+                sh 'mvn -s settings.xml clean compile package deploy -DskipTests'
             }
         }
         stage('Test') {
