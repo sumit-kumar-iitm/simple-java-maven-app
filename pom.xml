@@ -17,7 +17,7 @@
   </dependencies>
   <distributionManagement>
     <repository>
-      <id>deployment</id>
+      <id>server12</id>
       <name>Snapshot</name>
       <url>http://172.17.0.3:8081/nexus/content/repositories/myrepo</url>
     </repository>
